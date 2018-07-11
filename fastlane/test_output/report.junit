@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='WalletUITests.xctest' tests='9' failures='0'>
+  <testsuite name='MoneyTest' tests='7' failures='0'>
+    <testcase classname='MoneyTest' name='testAmountStorage' time='0.001'/>
+    <testcase classname='MoneyTest' name='testCurrecies' time='0.001'/>
+    <testcase classname='MoneyTest' name='testDifferentCurrenties' time='0.001'/>
+    <testcase classname='MoneyTest' name='testEquality' time='0.001'/>
+    <testcase classname='MoneyTest' name='testHash' time='0.001'/>
+    <testcase classname='MoneyTest' name='testMultiplication' time='0.001'/>
+    <testcase classname='MoneyTest' name='testSimpleAddition' time='0.001'/>
+  </testsuite>
+  <testsuite name='WalletUITests.ViewControlleUITest' tests='1' failures='0'>
+    <testcase classname='WalletUITests.ViewControlleUITest' name='testTouchUpInsisdeButton' time='7.817'/>
+  </testsuite>
+  <testsuite name='WalletUITests' tests='1' failures='0'>
+    <testcase classname='WalletUITests' name='testExample' time='5.021'/>
+  </testsuite>
+</testsuites>

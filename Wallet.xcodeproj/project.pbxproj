@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		114BB0EC20E95B5D0037B7C7 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114BB0EB20E95B5D0037B7C7 /* SnapshotHelper.swift */; };
+		114BB0EE20E95BBB0037B7C7 /* ViewControlleUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114BB0ED20E95BBB0037B7C7 /* ViewControlleUITest.swift */; };
 		11D5C13920CC43EA00A2F8C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D5C13820CC43EA00A2F8C3 /* AppDelegate.m */; };
 		11D5C13C20CC43EA00A2F8C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D5C13B20CC43EA00A2F8C3 /* ViewController.m */; };
 		11D5C13F20CC43EA00A2F8C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D5C13D20CC43EA00A2F8C3 /* Main.storyboard */; };
 		11D5C14120CC43ED00A2F8C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D5C14020CC43ED00A2F8C3 /* Assets.xcassets */; };
 		11D5C14420CC43ED00A2F8C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D5C14220CC43ED00A2F8C3 /* LaunchScreen.storyboard */; };
 		11D5C14720CC43ED00A2F8C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D5C14620CC43ED00A2F8C3 /* main.m */; };
-		11D5C15120CC43ED00A2F8C3 /* WalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D5C15020CC43ED00A2F8C3 /* WalletTests.m */; };
 		11D5C15C20CC43ED00A2F8C3 /* WalletUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D5C15B20CC43ED00A2F8C3 /* WalletUITests.m */; };
+		11D5C17920CD2AD000A2F8C3 /* Money.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D5C17820CD2AD000A2F8C3 /* Money.m */; };
+		11D5C17A20CD2AD000A2F8C3 /* Money.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D5C17820CD2AD000A2F8C3 /* Money.m */; };
+		11D5C18520CD8EC600A2F8C3 /* MoneyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D5C18420CD8EC600A2F8C3 /* MoneyTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		114BB0EA20E95B5C0037B7C7 /* WalletUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WalletUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		114BB0EB20E95B5D0037B7C7 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
+		114BB0ED20E95BBB0037B7C7 /* ViewControlleUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControlleUITest.swift; sourceTree = "<group>"; };
 		11D5C13420CC43EA00A2F8C3 /* Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D5C13720CC43EA00A2F8C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		11D5C13820CC43EA00A2F8C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,11 +53,13 @@
 		11D5C14520CC43ED00A2F8C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11D5C14620CC43ED00A2F8C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		11D5C14C20CC43ED00A2F8C3 /* WalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		11D5C15020CC43ED00A2F8C3 /* WalletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalletTests.m; sourceTree = "<group>"; };
 		11D5C15220CC43ED00A2F8C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11D5C15720CC43ED00A2F8C3 /* WalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D5C15B20CC43ED00A2F8C3 /* WalletUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalletUITests.m; sourceTree = "<group>"; };
 		11D5C15D20CC43ED00A2F8C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D5C17720CD2AD000A2F8C3 /* Money.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Money.h; sourceTree = "<group>"; };
+		11D5C17820CD2AD000A2F8C3 /* Money.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Money.m; sourceTree = "<group>"; };
+		11D5C18420CD8EC600A2F8C3 /* MoneyTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoneyTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,7 @@
 		11D5C13620CC43EA00A2F8C3 /* Wallet */ = {
 			isa = PBXGroup;
 			children = (
+				11D5C16C20CC479300A2F8C3 /* Models */,
 				11D5C13720CC43EA00A2F8C3 /* AppDelegate.h */,
 				11D5C13820CC43EA00A2F8C3 /* AppDelegate.m */,
 				11D5C13A20CC43EA00A2F8C3 /* ViewController.h */,
@@ -117,7 +127,7 @@
 		11D5C14F20CC43ED00A2F8C3 /* WalletTests */ = {
 			isa = PBXGroup;
 			children = (
-				11D5C15020CC43ED00A2F8C3 /* WalletTests.m */,
+				11D5C16920CC446600A2F8C3 /* Model */,
 				11D5C15220CC43ED00A2F8C3 /* Info.plist */,
 			);
 			path = WalletTests;
@@ -126,10 +136,30 @@
 		11D5C15A20CC43ED00A2F8C3 /* WalletUITests */ = {
 			isa = PBXGroup;
 			children = (
+				114BB0EB20E95B5D0037B7C7 /* SnapshotHelper.swift */,
 				11D5C15B20CC43ED00A2F8C3 /* WalletUITests.m */,
 				11D5C15D20CC43ED00A2F8C3 /* Info.plist */,
+				114BB0EA20E95B5C0037B7C7 /* WalletUITests-Bridging-Header.h */,
+				114BB0ED20E95BBB0037B7C7 /* ViewControlleUITest.swift */,
 			);
 			path = WalletUITests;
+			sourceTree = "<group>";
+		};
+		11D5C16920CC446600A2F8C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11D5C18420CD8EC600A2F8C3 /* MoneyTest.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		11D5C16C20CC479300A2F8C3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				11D5C17720CD2AD000A2F8C3 /* Money.h */,
+				11D5C17820CD2AD000A2F8C3 /* Money.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +236,7 @@
 					};
 					11D5C15620CC43ED00A2F8C3 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
 						TestTargetID = 11D5C13320CC43EA00A2F8C3;
 					};
 				};
@@ -262,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11D5C17920CD2AD000A2F8C3 /* Money.m in Sources */,
 				11D5C13C20CC43EA00A2F8C3 /* ViewController.m in Sources */,
 				11D5C14720CC43ED00A2F8C3 /* main.m in Sources */,
 				11D5C13920CC43EA00A2F8C3 /* AppDelegate.m in Sources */,
@@ -272,7 +304,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11D5C15120CC43ED00A2F8C3 /* WalletTests.m in Sources */,
+				11D5C18520CD8EC600A2F8C3 /* MoneyTest.m in Sources */,
+				11D5C17A20CD2AD000A2F8C3 /* Money.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +314,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				11D5C15C20CC43ED00A2F8C3 /* WalletUITests.m in Sources */,
+				114BB0EE20E95BBB0037B7C7 /* ViewControlleUITest.swift in Sources */,
+				114BB0EC20E95B5D0037B7C7 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -422,7 +457,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -504,6 +539,7 @@
 		11D5C16720CC43ED00A2F8C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 57XEBN6426;
 				INFOPLIST_FILE = WalletUITests/Info.plist;
@@ -514,6 +550,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jlspg.WalletUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WalletUITests/WalletUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Wallet;
 			};
@@ -522,6 +561,7 @@
 		11D5C16820CC43ED00A2F8C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 57XEBN6426;
 				INFOPLIST_FILE = WalletUITests/Info.plist;
@@ -532,6 +572,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jlspg.WalletUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WalletUITests/WalletUITests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Wallet;
 			};

@@ -9,6 +9,8 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *etiqueta;
+@property (weak, nonatomic) IBOutlet UIButton *boton;
 
 @end
 
@@ -23,6 +25,9 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)touchUpInside:(id)sender {
+    [self.etiqueta setText:@"Me han pulsado"];
 }
 
 
